@@ -41,13 +41,7 @@
                 <h2>
                     Uitwerkingen.
                 </h2>
-                <a href='T3_REA_6_1_Ramaekers_Owen_IO1S1B/T3_REA_Oefening6_1.php'> Oefening 6.1</a>
-                <p>
-                    <?php
-                        // Voorbeeldcode
-                        echo "Hello World!";
-                    ?>
-                </p>
+                <iframe src="/T3_REA_6_1_Ramaekers_Owen_IO1S1B/T3_REA_Oefening6_1.php" frameborder="0"></iframe>
             </section>
         </main>
     </body>
