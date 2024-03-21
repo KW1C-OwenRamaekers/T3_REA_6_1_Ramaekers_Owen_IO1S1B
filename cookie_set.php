@@ -18,6 +18,7 @@
     // Is er een POST value "selCountry" opgegeven?
     if( isset($_POST["selCountry"]) == true)
     {
+        setcookie("userCountryCode", $_POST["selCountry"], time()+60*60*24*365, "/");
         //  Opdracht 2: Programmeer hieronder (via cookieset) een cookie met de volgende eisen:
         //   Expiration date: over 356 dagen (1 jaar)
         //   Naam: userCountryCode
@@ -30,6 +31,6 @@
     }
 
     // Stuur een gebruiker door naar de index pagina!
-    // header("Location: /T3_REA_Oefeningen/index.php");
-
+    header("Location: T3_REA_Oefening6_1.php");
+    
 ?>

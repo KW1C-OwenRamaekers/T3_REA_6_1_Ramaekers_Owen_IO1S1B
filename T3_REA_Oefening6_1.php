@@ -6,7 +6,7 @@
 
     <p>Je land:</p>
     <select name="selCountry">
-        <option value="  " selected>Selecteer een land</option>
+        <option value="" selected>Selecteer een land</option>
         <option value="AF">Afghanistan</option>
         <option value="AL">Albania</option>
         <option value="DZ">Algeria</option>
@@ -239,5 +239,7 @@
     <br>
     <br>
     <input type="submit" value="Versturen">
-
 </form>
+    <?php
+        include('includes/footer.php');
+    ?>
